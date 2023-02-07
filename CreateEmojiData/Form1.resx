@@ -57,16 +57,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label3.Text" xml:space="preserve">
-    <value>１．絵文字を追加する用にアカウントを１つ作成
-２．１．で作成したアカウントのドライブに追加したい絵文字画像をすべて
-　　アップロードする
-３．このツールの「ユーザーID」に１．で作成したユーザーのIDを入力
-４．このツールの「追加する絵文字の数」に追加する数を入力
-５．このツールの「クエリを作成」ボタンを押す
-　（このツールと同じ階層にquery.txtができる）
-６．misskeyのDBに接続し、query.txtの内容を実行</value>
-  </data>
   <data name="label10.Text" xml:space="preserve">
     <value>サーバ側での操作手順
 １．以下のコマンドを実行し、「misskey_db_1」のCONTAINER ID を確認
@@ -79,5 +69,15 @@
 　　psql -h localhost -p 5432 -U misskey -d misskey
 ４．このツールで作成したクエリをコピペ（またはファイルをドラッグ＆ドロップ）して
 　　実行すればおわり</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>１．絵文字を追加する用にアカウントを１つ作成
+２．１．で作成したアカウントのドライブに追加したい絵文字画像をすべて
+　　アップロードする
+３．このツールの「ユーザーID」に１．で作成したユーザーのIDを入力
+４．このツールの「追加する絵文字の数」に追加する数を入力
+５．このツールの「クエリを作成」ボタンを押す
+　（このツールと同じ階層にquery_insert.txtができる）
+６．misskeyのDBに接続し、query_insert.txtの内容を実行</value>
   </data>
 </root>

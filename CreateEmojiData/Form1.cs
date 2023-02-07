@@ -55,6 +55,7 @@ namespace CreateEmojiData
                         }
                     }                    
                 }
+                MessageBox.Show("クエリが完成しました。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -129,6 +130,7 @@ namespace CreateEmojiData
             StreamWriter writer = new StreamWriter(saveFile2, false, enc);
             writer.Write(text + "\n");
             writer.Close();
+            MessageBox.Show("クエリが完成しました。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
