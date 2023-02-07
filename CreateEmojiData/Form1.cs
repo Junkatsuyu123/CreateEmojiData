@@ -12,8 +12,8 @@ namespace CreateEmojiData
         static string TXT = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
         // ƒtƒ@ƒCƒ‹–¼
-        static string insertFile = "./Query/insert.txt";
-        static string updateFile = "./Query/update.txt";
+        static string insertFile = "../../../Query/insert.txt";
+        static string updateFile = "../../../Query/update.txt";
         static string saveFile1 = "./query_insert.txt";
         static string saveFile2 = "./query_update.txt";
 
